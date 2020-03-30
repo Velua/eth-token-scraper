@@ -11,8 +11,8 @@ const loadTokens = async () => {
     console.log('Tokens loaded!')
 }
 
-app.listen(3001, async () => {
-  console.log("Listening on 3001");
+app.listen(process.env.PORT || 3001, async () => {
+  console.log("Server started, loading tokens..");
   loadTokens()
 });
 
