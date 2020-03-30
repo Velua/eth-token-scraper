@@ -5,7 +5,9 @@
   "license": "MIT",
   "author": "John Williamson <johnjwilliamson@live.com>",
   "scripts": {
-    "start": "tsc"
+    "start": "node build/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
@@ -15,5 +17,9 @@
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=12.16.0",
+    "npm": ">=6.0.0"
   }
 }
