@@ -1,0 +1,19 @@
+{
+  "name": "tokenScraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "John Williamson <johnjwilliamson@live.com>",
+  "scripts": {
+    "start": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.17",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  }
+}

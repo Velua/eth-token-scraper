@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "outDir": "dist",
+        "watch": true,
+        "target": "es5",
+        "esModuleInterop": true,
+        "moduleResolution": "node"
+    },
+    "include": ["src"]
+}
