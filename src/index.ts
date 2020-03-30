@@ -7,7 +7,7 @@ const app = express();
 let tokens = []
 
 const loadTokens = async () => {
-    tokens = await fetchTokens(10);
+    tokens = await fetchTokens(20);
     console.log('Tokens loaded!')
 }
 
