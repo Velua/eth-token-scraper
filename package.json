@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "John Williamson <johnjwilliamson@live.com>",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node dist/index.js",
     "build": "tsc",
     "postinstall": "npm run build"
   },
